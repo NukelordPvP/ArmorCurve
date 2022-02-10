@@ -7,6 +7,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import org.apache.commons.lang3.tuple.Pair;
 
+
+
 @Mod.EventBusSubscriber(modid = ArmorCurve.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class CurveConfig {
     //that is, subtract damage by (d>40/(t+1))(d-40/(t+1))/2
